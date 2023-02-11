@@ -1,0 +1,233 @@
+[16:30:59] [ServerMain/INFO]: Building unoptimized datafixer
+[16:31:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:32:11] [ServerMain/INFO]: Loaded 7 recipes
+[16:32:36] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[16:32:37] [Server thread/WARN]: ****************************
+[16:32:37] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[16:32:37] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[16:32:37] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[16:32:37] [Server thread/WARN]: ****************************
+[16:32:37] [Server thread/INFO]: Loading properties
+[16:32:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: ff67f1f)
+[16:32:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:32:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:32:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:32:43] [Server thread/INFO]: Default game type: SURVIVAL
+[16:32:43] [Server thread/INFO]: Generating keypair
+[16:32:43] [Server thread/INFO]: Starting Minecraft server on *:26518
+[16:32:45] [Server thread/INFO]: Using default channel type
+[16:32:45] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:32:45] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:33:18] [Server thread/INFO]: [SimpleRename] Loading SimpleRename v13.9
+[16:33:18] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[16:33:18] [Server thread/INFO]: [LifeSteal-Smp-Plugin] Loading LifeSteal-Smp-Plugin v2.3.13_Part1
+[16:33:18] [Server thread/WARN]: [LifeSteal-Smp-Plugin] Could not save heartRecipe.yml to plugins\LifeSteal-Smp-Plugin\heartRecipe.yml because heartRecipe.yml already exists.
+[16:33:18] [Server thread/WARN]: [LifeSteal-Smp-Plugin] Could not save beaconRecipe.yml to plugins\LifeSteal-Smp-Plugin\beaconRecipe.yml because beaconRecipe.yml already exists.
+[16:33:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.12+6240-87f4ae1
+[16:33:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5a5aab43]
+[16:33:26] [Server thread/INFO]: [LootCrate] Loading LootCrate v0.10.2
+[16:33:26] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[16:33:26] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[16:33:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[16:33:28] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[16:33:28] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[16:33:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:33:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[16:33:31] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[16:33:32] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[16:33:32] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[16:33:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[16:33:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[16:33:33] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.0
+[16:33:33] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.2.1
+[16:33:33] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.2
+[16:33:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:33:36] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[16:33:36] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[16:33:38] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[16:33:39] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[16:33:39] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[16:33:39] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[16:33:39] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[16:33:39] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[16:33:41] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[16:33:41] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[16:33:42] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[16:33:43] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[16:33:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:33:43] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.12+6240-87f4ae1
+[16:33:43] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[16:33:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:33:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:33:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R1.PaperweightAdapter as the Bukkit adapter
+[16:34:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:34:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:34:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:34:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:34:05] [Server thread/INFO]: Preparing level "world"
+[16:34:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:34:25] [Server thread/INFO]: Time elapsed: 1439 ms
+[16:34:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:34:27] [Server thread/INFO]: Time elapsed: 1559 ms
+[16:34:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:34:28] [Server thread/INFO]: Time elapsed: 1287 ms
+[16:34:28] [Server thread/INFO]: [SimpleRename] Enabling SimpleRename v13.9
+[16:34:31] [Server thread/INFO]: SimpleRename enabled!
+[16:34:31] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[16:34:31] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[16:34:39] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[16:34:39] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[16:34:40] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[16:34:40] [Server thread/INFO]: [LifeSteal-Smp-Plugin] Enabling LifeSteal-Smp-Plugin v2.3.13_Part1
+[16:34:43] [Server thread/WARN]: LSSMP | Debug:
+[16:34:43] [Server thread/WARN]:  - caused by: No players eliminated
+[16:34:47] [Server thread/INFO]: [LootCrate] Enabling LootCrate v0.10.2
+[16:34:52] [Server thread/INFO]: 
+[16:34:52] [Server thread/INFO]: 
+[16:34:52] [Server thread/INFO]: [  LootCrate v0.10.2  ]
+[16:34:52] [Server thread/INFO]: 
+[16:34:52] [Server thread/INFO]: Running Paper v1.19.2-R0.1-SNAPSHOT.
+[16:34:52] [Server thread/INFO]: Loaded 2 crate(s).
+[16:34:52] [Server thread/INFO]: No Hologram Plugin Found. Disabling Hologram Feature.
+[16:34:52] [Server thread/INFO]: Detected bStats Metrics.
+[16:34:52] [Server thread/INFO]: 
+[16:34:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[16:34:53] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.0
+[16:34:54] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.2.1
+[16:34:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.2
+[16:34:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[16:34:58] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[16:34:59] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[16:35:06] [Server thread/INFO]: Starting remote control listener
+[16:35:06] [Server thread/INFO]: Thread RCON Listener started
+[16:35:06] [Server thread/INFO]: RCON running on 0.0.0.0:2011
+[16:35:06] [Server thread/INFO]: Running delayed init tasks
+[16:35:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1/2 (760)
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[16:35:08] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[16:35:08] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:35:08] [Server thread/INFO]: Done (152.188s)! For help, type "help"
+[16:35:08] [Server thread/INFO]: Timings Reset
+[16:35:15] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[16:35:16] [pool-16-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (819b02508abe8879cfc2a513fc6cea383b70b5c5)
+[16:35:17] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:35:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Znaleziono serwer G:Klasa 5c(1040274231801421904)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:weryfikacja(1040277404700115014)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:przywitania(1040281906622771221)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:giveaway(1040538736678674443)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ogólne(1040282760755023892)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:fishing-simulator(1040321791438106695)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:60-only(1040364741450805328)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:informacje(1040375754468380702)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(1040281017228988498)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:roblox(1040365493904740402)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:info-sent(1040377259883773964)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-server(1040683221123338382)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:log(1040287224194936913)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:polski(1042350933549527070)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:matma(1042351143520583761)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:anglik(1042351211535413279)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:historia(1042351255160365096)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:biologia(1042351344641658910)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:geografia(1042351385661952100)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:muzyka(1042351429152669706)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:technika(1042351471724855338)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:plastyka(1042351502494269511)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:wychowawcza(1042351653615063071)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:wd¿(1042351848910245938)
+[16:35:19] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Identyfikator kana³u konsoli by³ nieprawid³owy, nie przekazuje danych wyjœciowych konsoli
+[16:35:23] [User Authenticator #0/INFO]: UUID of player Mjur0Gaming is fe7a321e-94dd-3d88-80fc-26db88dec348
+[16:35:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9608ms or 192 ticks behind
+[16:35:52] [Server thread/INFO]: Mjur0Gaming joined the game
+[16:35:52] [Server thread/INFO]: Mjur0Gaming[/127.0.0.1:57315] logged in with entity id 1 at ([world]29.37821006467557, 144.0, 1.4277726705649065)
+[16:36:02] [Craft Scheduler Thread - 11 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
+[16:36:02] [Craft Scheduler Thread - 11 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[16:36:02] [Craft Scheduler Thread - 11 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[16:36:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18969ms or 379 ticks behind
+[16:36:25] [Server thread/INFO]: Mjur0Gaming issued server command: /inv
+[16:36:47] [Server thread/INFO]: Mjur0Gaming issued server command: /oe
+[16:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9567ms or 191 ticks behind
+[16:37:31] [Server thread/INFO]: Stopping the server
+[16:37:31] [Server thread/INFO]: Stopping server
+[16:37:31] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[16:37:32] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.2
+[16:37:32] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.2.1
+[16:37:32] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.0
+[16:37:32] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Zapisane po³¹czone konta w 31ms
+[16:37:33] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Wy³¹czenie zostanie zakoñczone za 1728ms
+[16:37:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
+[16:37:33] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:37:34] [Server thread/INFO]: [LootCrate] Disabling LootCrate v0.10.2
+[16:37:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.12+6240-87f4ae1
+[16:37:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:37:34] [Server thread/INFO]: [LifeSteal-Smp-Plugin] Disabling LifeSteal-Smp-Plugin v2.3.13_Part1
+[16:37:35] [Server thread/INFO]: [AdvancedBan] Disabling AdvancedBan v2.3.0
+[16:37:35] [Server thread/INFO]: [hsqldb.db.HSQLDB837553EF76.ENGINE] Database closed
+[16:37:35] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[16:37:35] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[16:37:35] [Server thread/INFO]: 
+ 
+[]=====[Disabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+[]================================[]
+ 
+[16:37:35] [Server thread/INFO]: [SimpleRename] Disabling SimpleRename v13.9
+[16:37:35] [Server thread/INFO]: SimpleRename disabled!
+[16:37:35] [Server thread/INFO]: Saving players
+[16:37:35] [Server thread/INFO]: Mjur0Gaming lost connection: Server closed
+[16:37:40] [Server thread/INFO]: Mjur0Gaming left the game
+[16:37:41] [Server thread/INFO]: Saving worlds
+[16:37:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:37:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:37:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:37:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:37:49] [Server thread/INFO]: [ChunkHolderManager] Saved 111 chunks in world 'world' in 3s
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:37:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:37:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:37:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:37:51] [Server thread/INFO]: [ChunkHolderManager] Saved 126 chunks in world 'world_nether' in 1s
+[16:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:37:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:37:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:37:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:37:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:37:53] [Server thread/INFO]: [ChunkHolderManager] Saved 237 chunks in world 'world_the_end' in 0s
+[16:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:37:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:37:53] [Server thread/INFO]: Flushing Chunk IO
+[16:37:53] [Server thread/INFO]: Closing Thread Pool
+[16:37:56] [Server thread/INFO]: Closing Server

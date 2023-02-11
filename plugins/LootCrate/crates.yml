@@ -1,0 +1,456 @@
+crates:
+  '589':
+    Id: 589
+    Name: Normal
+    Options:
+      Knockback: 1.0
+      Animation-Style: RANDOM_GLASS
+      Display-Chances: true
+      Open-Sound: UI_TOAST_CHALLENGE_COMPLETE
+      Open-Message: '&fYou have opened &e{crate_name}&f.'
+      Hologram-Enabled: true
+      Hologram-Lines:
+      - '{crate_name}'
+      - '&8Right-Click&7 to Unlock'
+      - '&8Left-Click&7 to View'
+      Hologram-Offset-X: 0.5
+      Hologram-Offset-Y: 1.8
+      Hologram-Offset-Z: 0.5
+    Key:
+      Item:
+        v: 3120
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"italic":false,"color":"gray","text":"Normal Key"}],"text":""}'
+          enchants:
+            OXYGEN: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          PublicBukkitValues:
+            lootcrate:lootcrate-key: 589i
+            lootcrate:lootcrate-crate-id: 589i
+      Glowing: true
+    Items:
+    - ==: lootcrate.objects.CrateItem
+      ID: 74516
+      Item:
+        v: 3120
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"|
+            Nausea Axe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYOBhAAATkECzEQAAAA==
+      Chance: 66.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_axe{Custom:12,display:{Name:"{\"text\":\"§a| Nausea
+        Axe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 75218
+      Item:
+        v: 3120
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"|
+            Slowness Axe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYOBjAACR8naBEQAAAA==
+      Chance: 66.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_axe{Custom:14,display:{Name:"{\"text\":\"§8| Slowness
+        Axe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 56269
+      Item:
+        v: 3120
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"|
+            Weakness Axe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYOBlAABSoVuqEQAAAA==
+      Chance: 66.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_axe{Custom:13,display:{Name:"{\"text\":\"§7| Weakness
+        Axe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 82253
+      Item:
+        v: 3120
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"|
+            Lighting Axe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBmAACNnhp+EQAAAA==
+      Chance: 33.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} netherite_axe{Custom:19,display:{Name:"{\"text\":\"§9| Lighting
+        Axe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 80525
+      Item:
+        v: 3120
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"|
+            Lava Boots |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBkAAAP/CxMEQAAAA==
+      Chance: 33.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_boots{Custom:17,display:{Name:"{\"text\":\"§c| Lava
+        Boots |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 22856
+      Item:
+        v: 3120
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"|
+            Jump Boots |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBgAABOzTdVEQAAAA==
+      Chance: 33.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_boots{Custom:16,display:{Name:"{\"text\":\"§2| Jump
+        Boots |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 16545
+      Item:
+        v: 3120
+        type: RED_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"❤
+            "},{"italic":false,"color":"white","text":"Extra heart."}],"text":""}'
+          lore:
+          - '{"extra":[{"text":"Gives you an extra heart!"}],"text":""}'
+          custom-model-data: 931
+          PublicBukkitValues:
+            lifesteal-smp-plugin:heart_item: 0b
+            lifesteal-smp-plugin:heart: 0i
+      Chance: 22.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - lsgive heart_item {player}
+    - ==: lootcrate.objects.CrateItem
+      ID: 72635
+      Item:
+        v: 3120
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"|
+            Haste Pickaxe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYOBnAADQw22YEQAAAA==
+      Chance: 15.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_pickaxe{Custom:15,display:{Name:"{\"text\":\"§6| Haste
+        Pickaxe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 41825
+      Item:
+        v: 3120
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"italic":false,"color":"dark_green","text":"|
+            Posion Axe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYOBmAADUBgH8EQAAAA==
+      Chance: 50.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_axe{Custom:11,display:{Name:"{\"text\":\"§2| Posion
+        Axe |\"}"}}
+  '947':
+    Id: 947
+    Name: OP
+    Options:
+      Knockback: 1.0
+      Animation-Style: RANDOM_GLASS
+      Display-Chances: true
+      Open-Sound: UI_TOAST_CHALLENGE_COMPLETE
+      Open-Message: '&fYou have opened &e{crate_name}&f.'
+      Hologram-Enabled: true
+      Hologram-Lines:
+      - '{crate_name}'
+      - '&8Right-Click&7 to Unlock'
+      - '&8Left-Click&7 to View'
+      Hologram-Offset-X: 0.5
+      Hologram-Offset-Y: 1.8
+      Hologram-Offset-Z: 0.5
+    Key:
+      Item:
+        v: 3120
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"italic":false,"color":"gold","text":"OP Key"}],"text":""}'
+          enchants:
+            OXYGEN: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          PublicBukkitValues:
+            lootcrate:lootcrate-key: 947i
+            lootcrate:lootcrate-crate-id: 947i
+      Glowing: true
+    Items:
+    - ==: lootcrate.objects.CrateItem
+      ID: 99252
+      Item:
+        v: 3120
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"|
+            Furance Pickaxe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBhAABKCFsxEQAAAA==
+      Chance: 10.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} diamond_pickaxe{Custom:20,display:{Name:"{\"text\":\"§c| Furance
+        Pickaxe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 28869
+      Item:
+        v: 3120
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"|
+            3x3 Pickaxe |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBlAAALOUAoEQAAAA==
+      Chance: 75.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} netherite_pickaxe{Custom:21,display:{Name:"{\"text\":\"§5| 3x3
+        Pickaxe |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 20269
+      Item:
+        v: 3120
+        type: IRON_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"|
+            X-Ray |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBjAADIam0DEQAAAA==
+      Chance: 50.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} iron_nugget{Custom:22,display:{Name:"{\"text\":\"§8| X-Ray |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 24116
+      Item:
+        v: 3120
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"italic":false,"color":"gold","text":"| X-Ray
+            |"}],"text":""}'
+          lore:
+          - '{"extra":[{"italic":false,"text":"NETHER!"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBmYHMuLS7Jz2VgYBBnAACJW3YaEQAAAA==
+      Chance: 15.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} gold_nugget{Custom:23,display:{Name:"{\"text\":\"§6| X-Ray |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 26952
+      Item:
+        v: 3120
+        type: CARROT_ON_A_STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"|
+            Fireball Wand |"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYGBm4HDzDHINd/RzYWBgYGQAABqKjT8TAAAA
+      Chance: 25.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} carrot_on_a_stick{FIREWAND:1,display:{Name:"{\"text\":\"§c|
+        Fireball Wand |\"}"}}
+    - ==: lootcrate.objects.CrateItem
+      ID: 57615
+      Item:
+        v: 3120
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_EXPLOSIONS: 10
+            DEPTH_STRIDER: 10
+            PROTECTION_FALL: 10
+            PROTECTION_FIRE: 10
+            FROST_WALKER: 10
+            MENDING: 1
+            PROTECTION_PROJECTILE: 10
+            PROTECTION_ENVIRONMENTAL: 10
+            SOUL_SPEED: 10
+            THORNS: 10
+            DURABILITY: 3
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 10.0
+              name: generic.max_health
+              slot: FEET
+              uuid: ffed5e6c-0000-0f33-0002-0abdffffe19a
+              operation: 0
+      Chance: 25.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} golden_boots{AttributeModifiers:[{AttributeName:"generic.max_health",Amount:10,Slot:feet,Name:"generic.max_health",UUID:[I;-1221012,3891,133821,-7782]}],Enchantments:[{id:blast_protection,lvl:10},{id:depth_strider,lvl:10},{id:feather_falling,lvl:10},{id:fire_protection,lvl:10},{id:frost_walker,lvl:10},{id:mending,lvl:1},{id:projectile_protection,lvl:10},{id:protection,lvl:10},{id:soul_speed,lvl:10},{id:thorns,lvl:10},{id:unbreaking,lvl:3}]}
+        1
+    - ==: lootcrate.objects.CrateItem
+      ID: 87267
+      Item:
+        v: 3120
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            WATER_WORKER: 1
+            PROTECTION_EXPLOSIONS: 10
+            PROTECTION_FIRE: 10
+            MENDING: 1
+            PROTECTION_PROJECTILE: 10
+            PROTECTION_ENVIRONMENTAL: 10
+            OXYGEN: 10
+            THORNS: 10
+            DURABILITY: 3
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 10.0
+              name: generic.max_health
+              slot: HEAD
+              uuid: ffed5e6c-0000-21f3-0002-0abdffffbc1a
+              operation: 0
+      Chance: 25.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} golden_helmet{AttributeModifiers:[{AttributeName:"generic.max_health",Amount:10,Slot:head,Name:"generic.max_health",UUID:[I;-1221012,8691,133821,-17382]}],Enchantments:[{id:aqua_affinity,lvl:1},{id:blast_protection,lvl:10},{id:fire_protection,lvl:10},{id:mending,lvl:1},{id:projectile_protection,lvl:10},{id:protection,lvl:10},{id:respiration,lvl:10},{id:thorns,lvl:10},{id:unbreaking,lvl:3}]}
+        1
+    - ==: lootcrate.objects.CrateItem
+      ID: 35443
+      Item:
+        v: 3120
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_EXPLOSIONS: 10
+            PROTECTION_FIRE: 10
+            MENDING: 1
+            PROTECTION_PROJECTILE: 10
+            PROTECTION_ENVIRONMENTAL: 10
+            THORNS: 10
+            DURABILITY: 3
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 10.0
+              name: generic.max_health
+              slot: CHEST
+              uuid: ffed5e6c-0000-1da7-0002-0abdffffc4b2
+              operation: 0
+      Chance: 25.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} golden_chestplate{AttributeModifiers:[{AttributeName:"generic.max_health",Amount:10,Slot:chest,Name:"generic.max_health",UUID:[I;-1221012,7591,133821,-15182]}],Enchantments:[{id:blast_protection,lvl:10},{id:fire_protection,lvl:10},{id:mending,lvl:1},{id:projectile_protection,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:unbreaking,lvl:3}]}
+        1
+    - ==: lootcrate.objects.CrateItem
+      ID: 65250
+      Item:
+        v: 3120
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_EXPLOSIONS: 10
+            PROTECTION_FIRE: 10
+            MENDING: 1
+            PROTECTION_PROJECTILE: 10
+            PROTECTION_ENVIRONMENTAL: 10
+            SWIFT_SNEAK: 10
+            THORNS: 10
+            DURABILITY: 3
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 10.0
+              name: generic.max_health
+              slot: LEGS
+              uuid: ffed5e6c-0000-182f-0002-0abdffffcfa2
+              operation: 0
+      Chance: 15.0
+      MinAmount: 1
+      MaxAmount: 1
+      isDisplay: true
+      Commands:
+      - give {player} golden_leggings{AttributeModifiers:[{AttributeName:"generic.max_health",Amount:10,Slot:legs,Name:"generic.max_health",UUID:[I;-1221017,12095,1659,-24190]}],Enchantments:[{id:blast_protection,lvl:10},{id:fire_protection,lvl:10},{id:mending,lvl:1},{id:projectile_protection,lvl:10},{id:protection,lvl:10},{id:swift_sneak,lvl:10},{id:thorns,lvl:10},{id:unbreaking,lvl:3}]}
+        1

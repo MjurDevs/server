@@ -1,0 +1,1 @@
+tellraw @a {"text": "Plugin do Magic Item SMP wczytano autor Michał", "color": "#0000FF"}
